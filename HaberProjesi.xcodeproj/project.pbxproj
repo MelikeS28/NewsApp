@@ -30,32 +30,111 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		0CDA99482D4E99550070B111 /* Exceptions for "HaberProjesi" folder in "HaberProjesi" target */ = {
+		0CDA997F2D4FC7340070B111 /* Exceptions for "HaberProjesi" folder in "HaberProjesi" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"/Localized: LaunchScreen.storyboard",
+				"/Localized: Main.storyboard",
+				Assets.xcassets,
+			);
+			target = 0CDA991F2D4E99540070B111 /* HaberProjesi */;
+		};
+		0CDA99802D4FC7340070B111 /* Exceptions for "HaberProjesi" folder in "HaberProjesiUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: LaunchScreen.storyboard",
+				"/Localized: Main.storyboard",
+				Assets.xcassets,
 				Info.plist,
+			);
+			target = 0CDA993F2D4E99550070B111 /* HaberProjesiUITests */;
+		};
+		0CDA99872D4FC7AD0070B111 /* Exceptions for "Model" folder in "HaberProjesi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				News.swift,
+			);
+			target = 0CDA991F2D4E99540070B111 /* HaberProjesi */;
+		};
+		0CDA99882D4FC7E90070B111 /* Exceptions for "View" folder in "HaberProjesi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppDelegate.swift,
+				NewsCell.swift,
+				SceneDelegate.swift,
+				ViewController.swift,
+			);
+			target = 0CDA991F2D4E99540070B111 /* HaberProjesi */;
+		};
+		0CDA99892D4FC7E90070B111 /* Exceptions for "View" folder in "HaberProjesiUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppDelegate.swift,
+				NewsCell.swift,
+				SceneDelegate.swift,
+				ViewController.swift,
+			);
+			target = 0CDA993F2D4E99550070B111 /* HaberProjesiUITests */;
+		};
+		0CDA99932D4FCBDC0070B111 /* Exceptions for "Service" folder in "HaberProjesi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				APIContants.swift,
+				WebService.swift,
+			);
+			target = 0CDA991F2D4E99540070B111 /* HaberProjesi */;
+		};
+		0CDA99992D4FD3B00070B111 /* Exceptions for "ViewModel" folder in "HaberProjesi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				NewsCellViewModel.swift,
+				NewsTableViewModel.swift,
 			);
 			target = 0CDA991F2D4E99540070B111 /* HaberProjesi */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0CDA99222D4E99540070B111 /* HaberProjesi */ = {
+		0CDA99772D4FC7340070B111 /* HaberProjesi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				0CDA99482D4E99550070B111 /* Exceptions for "HaberProjesi" folder in "HaberProjesi" target */,
+				0CDA997F2D4FC7340070B111 /* Exceptions for "HaberProjesi" folder in "HaberProjesi" target */,
+				0CDA99802D4FC7340070B111 /* Exceptions for "HaberProjesi" folder in "HaberProjesiUITests" target */,
 			);
 			path = HaberProjesi;
 			sourceTree = "<group>";
 		};
-		0CDA99392D4E99550070B111 /* HaberProjesiTests */ = {
+		0CDA99812D4FC73D0070B111 /* View */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HaberProjesiTests;
+			exceptions = (
+				0CDA99882D4FC7E90070B111 /* Exceptions for "View" folder in "HaberProjesi" target */,
+				0CDA99892D4FC7E90070B111 /* Exceptions for "View" folder in "HaberProjesiUITests" target */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
-		0CDA99432D4E99550070B111 /* HaberProjesiUITests */ = {
+		0CDA99822D4FC7530070B111 /* Model */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HaberProjesiUITests;
+			exceptions = (
+				0CDA99872D4FC7AD0070B111 /* Exceptions for "Model" folder in "HaberProjesi" target */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CDA99832D4FC76B0070B111 /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0CDA99992D4FD3B00070B111 /* Exceptions for "ViewModel" folder in "HaberProjesi" target */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0CDA99902D4FCBDC0070B111 /* Service */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0CDA99932D4FCBDC0070B111 /* Exceptions for "Service" folder in "HaberProjesi" target */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,9 +167,11 @@
 		0CDA99172D4E99540070B111 = {
 			isa = PBXGroup;
 			children = (
-				0CDA99222D4E99540070B111 /* HaberProjesi */,
-				0CDA99392D4E99550070B111 /* HaberProjesiTests */,
-				0CDA99432D4E99550070B111 /* HaberProjesiUITests */,
+				0CDA99902D4FCBDC0070B111 /* Service */,
+				0CDA99832D4FC76B0070B111 /* ViewModel */,
+				0CDA99822D4FC7530070B111 /* Model */,
+				0CDA99812D4FC73D0070B111 /* View */,
+				0CDA99772D4FC7340070B111 /* HaberProjesi */,
 				0CDA99212D4E99540070B111 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,9 +201,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				0CDA99222D4E99540070B111 /* HaberProjesi */,
-			);
 			name = HaberProjesi;
 			packageProductDependencies = (
 			);
@@ -142,9 +220,6 @@
 			);
 			dependencies = (
 				0CDA99382D4E99550070B111 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				0CDA99392D4E99550070B111 /* HaberProjesiTests */,
 			);
 			name = HaberProjesiTests;
 			packageProductDependencies = (
@@ -167,7 +242,11 @@
 				0CDA99422D4E99550070B111 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				0CDA99432D4E99550070B111 /* HaberProjesiUITests */,
+				0CDA99772D4FC7340070B111 /* HaberProjesi */,
+				0CDA99812D4FC73D0070B111 /* View */,
+				0CDA99822D4FC7530070B111 /* Model */,
+				0CDA99832D4FC76B0070B111 /* ViewModel */,
+				0CDA99902D4FCBDC0070B111 /* Service */,
 			);
 			name = HaberProjesiUITests;
 			packageProductDependencies = (

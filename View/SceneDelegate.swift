@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  HaberProjesi
 //
-//  Created by Melike on 1.02.2025.
+//  Created by Melike on 1.02.2026.
 //
 
 import UIKit
