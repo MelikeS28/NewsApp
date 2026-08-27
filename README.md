@@ -8,7 +8,7 @@ A lightweight and dynamic iOS news reader application built using Swift, UIKit, 
 
 | News Feed |
 |:---------:|
-| <img src="MovieVC.png" width="250"> |
+| <img src="NewsVC.png" width="250"> |
 
 ---
 
